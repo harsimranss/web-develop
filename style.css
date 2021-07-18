@@ -1,0 +1,42 @@
+body{
+	background-color: lightblue;
+	background-image: url("imageback.jpg");
+	text-align: center;
+	font-weight: bolder;
+	margin-top: 200px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+    overflow: scroll;
+    background-size: cover;
+    color: white ;
+
+}
+a{
+	text-decoration: none;
+	border-color: white;
+	border-width: 0.2px;
+	border-style: solid;
+	background-color: black;
+	color: white;
+	font-size: 20px;
+	padding: 10px;
+	margin-bottom: 10px;
+	align-content: center;
+	
+	margin-right: auto;
+}
+a:hover{
+	text-decoration: none;
+	border-color: black;
+	border-width: 0.2px;
+	border-style: solid;
+	background-color: white;
+	color: black;
+	margin-bottom: 10px;
+
+	margin-right: auto;
+	
+	align-content: center;
+
+}
