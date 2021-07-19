@@ -28,6 +28,9 @@ section{
 .drop{
 	display: inline-block;
 	position: relative;
+	align-content: center;
+	bottom: 180px;
+	left: 350px;
 }
 .nav div{
 	background-color: black;
@@ -42,7 +45,7 @@ section{
 	display: inline-block;
 
 }
-.nav:hover div{
+.drop:hover div{
 	background-color: white;
 	color: black;
 	border-color: black;
@@ -54,14 +57,24 @@ section{
 .navlist ol{
 	display: none;
 	background-color: white;
-	opacity: 0.8;
+	opacity: 0.9;
 	color: black;
 	list-style: none;
 	text-align: left;
+	padding: 5px;
+
 }
 .drop:hover ol{
 	display: block;
 	position: absolute;
+	right: 1px;
+	background-color: white;
+	opacity : 0.8;
+	color: black;
 	text-align: left;
 	
+}
+.drop:hover a:hover{
+	opacity: 0.8;
+	cursor: pointer;
 }
