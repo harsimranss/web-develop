@@ -1,0 +1,58 @@
+body{
+	background-color: lightblue;
+	background-image: url("imageback.jpg");
+	background-attachment: fixed;
+	text-align: center;
+	font-weight: bolder;
+	margin-top: 100px;
+    margin-bottom: 100px;
+    
+    font-family: cursive;
+    font-size: 20px;
+    overflow: scroll;
+    background-size: cover;
+    color: white ;
+    background-repeat: no-repeat;
+}
+h1{
+	font-family: cursive;
+	font-size: 90px;
+	font-weight: bolder;
+	font-color: red;
+	margin-top: 100px;
+}
+nav a{
+	font-size: 20;
+	
+	text-align: left;
+	padding: 10px;
+	border-style: solid;
+	background-color: black;
+	opacity: 0.4;
+	border-color: black;
+	color: white;
+	text-decoration: none;
+}
+.all{
+	margin :10px 50px 50px 20px;
+	display: flex;
+	flex-direction: column;
+}
+.one{
+	margin :1px 50px 50px 50px;
+	flex : 1;
+	display: flex;
+
+}
+.two{
+	margin: 10px;
+	flex: 1;
+	padding: 1px 1px 30px 1px;
+	border-style: solid;
+	border-color: black;
+	border-width: 0.01px;
+	opacity: 0.;
+}
+.two:hover{
+	border-color: red;
+}
