@@ -19,12 +19,10 @@ h1{
 	font-size: 90px;
 	font-weight: bolder;
 	font-color: red;
-	margin-top: 100px;
+	margin-top: 10px;
 }
 nav a{
 	font-size: 20;
-	
-	text-align: left;
 	padding: 10px;
 	border-style: solid;
 	background-color: black;
@@ -32,7 +30,10 @@ nav a{
 	border-color: black;
 	color: white;
 	text-decoration: none;
+	position: fixed;
+	left: 10px;
 }
+
 .all{
 	margin :10px 50px 50px 20px;
 	display: flex;
