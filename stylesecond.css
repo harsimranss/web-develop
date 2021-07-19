@@ -17,16 +17,16 @@ h1{
 	flex: 1;
 }
 body{
-	background-color: black;
+	background-color: antiquewhite;
 }
 nav ul{
 	list-style-type: none;
 	display: flex;
 	background-color: #28282B;
-	position: fixed;
+	position: absolute;
 	top: 80px;
 	height: 30px;
-	width: 100%;
+	width: 96%;
 }
 
 nav .nava{
@@ -37,6 +37,7 @@ nav .nava{
 	text-align: left;
 	margin: auto;
 	color: white;
+	font-size: 40;
 	
 }
 .nava:hover{
@@ -63,7 +64,7 @@ nav .nava{
 	color: black;
 	opacity:0.7;
 	align-content: left;
-	display: flex;
+	
 	
 }
 .navb li:hover{
@@ -72,3 +73,44 @@ nav .nava{
 }
 
 
+section{
+	color: black;
+	
+	font-family: sans-serif;
+}
+.cont{
+	width: 100%;
+	display: flex;
+	margin: 10px 0px 10px 10px ;
+}
+.sidel, .sider{
+	flex: 1;
+	margin: 5px;
+	padding: 1px;
+	color: darkblue;
+	border-width: 0.01px;
+	background-color: red;
+	opacity: 0.6;
+}
+.main{
+	flex: 5;
+	margin: auto;
+	color: black;
+	font-size: 20;
+}
+.f{
+	display: flex;
+}
+footer{
+	position: absolute;
+	bottom: 10px;
+	color: yelow;
+	text-align: center;
+	display: block;
+	flex: 1;
+}
+h2{
+	color: darkblue;
+	font-size: 50;
+	
+}
