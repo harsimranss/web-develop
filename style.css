@@ -6,12 +6,12 @@ body{
 	font-weight: bolder;
 	margin-top: 200px;
     margin-bottom: 100px;
-    margin-right: 150px;
-    margin-left: 80px;
+    
+    
     overflow: scroll;
     background-size: cover;
     color: white ;
-
+    background-repeat: no-repeat;
 }
 
 	
@@ -77,4 +77,43 @@ section{
 .drop:hover a:hover{
 	opacity: 0.8;
 	cursor: pointer;
+}
+div.content{
+	
+	display: flex;
+	flex-direction: row;
+	margin: 10px 10px;
+	
+	
+}
+div section{
+	
+	margin : auto;
+	padding: 10px 40px 10px 40px;
+	background-color: black;
+	border-color: white;
+	border-width: 0.2px;
+	opacity: 0.6;
+	color: whitesmoke;
+
+
+	
+}
+div section:hover
+{	border-color: white;
+	background-color: white;
+	opacity: 0.4;
+	color: black;
+	cursor: pointer;
+}
+
+
+footer{
+
+	
+	margin:200px 200px 10px 10px ;
+	align-content: center;
+	width: 100%;
+	opacity: 0.3;
+	color: yellow;
 }
