@@ -33,11 +33,12 @@ body{
 	color: orange;
 	display: grid;
 	grid-template-columns: 2fr 4fr 2fr minmax(160px, 1fr);
-	grid-auto-rows: 3fr 3fr auto;
+	grid-template-rows: 3fr 3fr auto;
 	grid-template-areas: 
-	"logo name emp photo"
-	"logo contact emp photo"
+	"logo name name photo"
+	"logo contact contact photo"
 	" menu menu menu menu";
+	justify-content: center;
 }
 #side1{
 	grid-area: side1;
@@ -77,9 +78,13 @@ body{
 	grid-area:contact ;
 	color: whitesmoke;
 	font-size: 80%;
+	overflow-wrap: initial;
 }
 #photo{
 	grid-area:photo ;
+	margin-left: auto;
+	justify-content: end;
+	
 }
 #emp{
 	grid-area: emp;
@@ -89,7 +94,7 @@ body{
 	background-color: orange;
 	display: flex;
 	justify-content: start;
-	font-size: 80%;
+	font-size: 60%;
 }
 #home{
  color: black;
