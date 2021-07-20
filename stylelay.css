@@ -95,6 +95,7 @@ body{
 	display: flex;
 	justify-content: start;
 	font-size: 60%;
+	margin: 0px;
 }
 #home{
  color: black;
