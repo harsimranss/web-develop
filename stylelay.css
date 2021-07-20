@@ -4,11 +4,11 @@ body{
 
 #container{
 	width: 100%;
-	
+	height: 1000px;
 	
 	display: grid;
 	grid-template-columns: minmax(225px,2fr) 1fr minmax(130px, 1fr);
-	grid-template-rows:minmax(auto , 300px) 2fr 4fr 5fr 2fr ;
+	grid-template-rows:auto 5fr 4fr 5fr 1fr ;
 	grid-template-areas: 
 	"header header header"
 	"main main side1"
@@ -21,9 +21,11 @@ body{
 }
 #main{
 	grid-area: main;
+	overflow: auto;
 	background-color: floralwhite;
 	opacity: 0.7;
 	font-size: 70%;
+	
 }
 #header{
 	grid-area: header;
@@ -43,6 +45,7 @@ body{
 	outline: 2px solid orange;
 	color: orange;
 	font-size: 70%;
+	overflow: auto;
 }
 #side2{
 	grid-area: side2;
@@ -50,6 +53,7 @@ body{
 	outline: 2px solid lightcoral;
 	color: orange;
 	font-size: 60%;
+	overflow: auto;
 }
 #side3{
 	grid-area: side3;
