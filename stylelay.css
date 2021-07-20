@@ -4,11 +4,11 @@ body{
 
 #container{
 	width: 100%;
-	height: 1500px;
+	
 	
 	display: grid;
 	grid-template-columns: minmax(225px,2fr) 1fr minmax(130px, 1fr);
-	grid-template-rows:2fr 4fr 5fr 2fr ;
+	grid-template-rows:minmax(auto , 300px) 2fr 4fr 5fr 2fr ;
 	grid-template-areas: 
 	"header header header"
 	"main main side1"
@@ -23,6 +23,7 @@ body{
 	grid-area: main;
 	background-color: floralwhite;
 	opacity: 0.7;
+	font-size: 70%;
 }
 #header{
 	grid-area: header;
@@ -41,13 +42,14 @@ body{
 	background-color: black;
 	outline: 2px solid orange;
 	color: orange;
+	font-size: 70%;
 }
 #side2{
 	grid-area: side2;
 	background-color: black;
 	outline: 2px solid lightcoral;
 	color: orange;
-	font-size: 15px;
+	font-size: 60%;
 }
 #side3{
 	grid-area: side3;
@@ -64,13 +66,13 @@ body{
 #name{
 	grid-area:name ;
 	color: whitesmoke;
-	font-size: 30px;
+	font-size: 200%;
 	font-weight: bold;
 }
 #contact{
 	grid-area:contact ;
 	color: whitesmoke;
-	font-size: 20px;
+	font-size: 80%;
 }
 #photo{
 	grid-area:photo ;
@@ -83,6 +85,7 @@ body{
 	background-color: orange;
 	display: flex;
 	justify-content: start;
+	font-size: 80%;
 }
 #home{
  color: black;
@@ -125,6 +128,6 @@ body{
 	background-color: orange;
 	border-radius: 50%;
 	display: inline-block;
-	height: 15px;
-	width: 15px;
+	height: 10px;
+	width: 10px;
 }
