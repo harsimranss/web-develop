@@ -7,8 +7,8 @@ body{
 	height: 1500px;
 	
 	display: grid;
-	grid-template-columns: minmax(200px,2fr) 1fr minmax(100px, 25%);
-	grid-template-rows:2fr 4fr 4fr 2fr ;
+	grid-template-columns: minmax(250px,2fr) 1fr minmax(100px, 1fr);
+	grid-template-rows:2fr 4fr 5fr 2fr ;
 	grid-template-areas: 
 	"header header header"
 	"main main side1"
@@ -47,6 +47,7 @@ body{
 	background-color: black;
 	outline: 2px solid lightcoral;
 	color: orange;
+	font-size: 15px;
 }
 #side3{
 	grid-area: side3;
