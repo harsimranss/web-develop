@@ -1,0 +1,129 @@
+b{
+    background-color: ghostwhite;
+}
+#container{
+    display: grid;
+    height: 600px;
+    grid-template-rows: 2fr 7fr 1fr;
+    grid-template-areas: 
+    "header"
+    "mainBody"
+    "footer";
+}
+#footer{
+    grid-area: footer;
+}
+#header{
+    grid-area: header;
+}
+#mainBody{
+    grid-area: mainBody;
+    display: grid;
+    grid-template-columns: 2fr 6fr 2fr;
+    grid-template-areas: 
+    "leftSide centre rightSide";
+    overflow: auto;
+}
+
+#header{
+    display: grid;
+    grid-template-rows: 1fr auto;
+    grid-template-areas: 
+    'name'
+    'menubar';
+}
+
+
+#name{
+    grid-area: name;
+    background-color: rgb(40, 40, 148);
+    color: white;
+    font-size: 60px;
+    padding: 30px;
+}
+#menubar{
+    grid-area: menubar;
+    opacity: 1;
+    display: flex;
+    flex-direction: row;
+}
+#menuContainer{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    color: white;    
+}
+.menuc{
+    padding: 8px 30px 2px 20px;
+    font-variant: small-caps;
+    background-color: rgb(10, 10, 36) ;
+    height: 30px;
+    width: 60px;
+}
+.menuc .ul{
+    display: none;
+    position: relative;
+    list-style-type: none;
+    margin: 15px 0px;
+    width: 100px;
+
+}
+#emptymenu{
+    flex: 8;
+    padding: 5px 0px;
+    background-color: rgb(10, 10, 36);
+    height: 30px;
+}
+.menuc:hover .ul{
+    display: block;
+}
+.menuc:hover{
+    background-color: orange;
+    color:rgb(10, 10, 36);
+    cursor: pointer;
+    opacity:0.95;
+}
+.menuc li{
+    display: block;
+    position: relative;
+    background-color:rgb(255, 156, 8);
+    color:rgb(10, 10, 36);
+    width: 150px;
+    padding: 15px;
+    opacity: 1;
+}
+.menuc li:hover{
+    opacity: 0.8 ;
+}
+#leftSide{
+    grid-area: leftSide;
+}
+#centre{
+    grid-area: centre;
+    
+}
+#rightiSide{
+    grid-area: rightSide;
+}
+
+
+#mainName{
+    font-variant: small-caps;
+}
+#mainName h2{
+    text-decoration-style: wavy;
+    text-align:center;
+    font-variant: small-caps  ;
+}
+.textin{
+    display: flex;
+    margin: 50px;
+}
+.inputtext{
+    flex: 1;
+    display: flex;
+}
+.inp{
+    flex: 1;
+    height: 20px;
+}

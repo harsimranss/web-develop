@@ -46,7 +46,7 @@ body{
 	outline: 2px solid orange;
 	color: orange;
 	font-size: 70%;
-	overflow: auto;
+	
 }
 #side2{
 	grid-area: side2;
@@ -54,7 +54,7 @@ body{
 	outline: 2px solid lightcoral;
 	color: orange;
 	font-size: 60%;
-	overflow: auto;
+	
 }
 #side3{
 	grid-area: side3;
